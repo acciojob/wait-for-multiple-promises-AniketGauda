@@ -23,7 +23,7 @@ const promise3 = ()=>{
     });
 }
 
-const ditm = document.getElementById("load");
+const ditm = document.getElementById("loading");
 const prnt = document.getElementById("tbl");
 
 Promise.all([promise1(),promise2(),promise3()]).then((data)=>{
