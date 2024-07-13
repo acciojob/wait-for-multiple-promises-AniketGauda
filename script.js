@@ -24,7 +24,7 @@ const promise3 = ()=>{
 }
 
 const ditm = document.getElementById("loading");
-const prnt = document.getElementById("tbl");
+const prnt = document.getElementById("output");
 
 Promise.all([promise1(),promise2(),promise3()]).then((data)=>{
     ditm.style.display = "none";
